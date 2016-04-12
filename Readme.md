@@ -20,7 +20,7 @@ Thomas |
   4. Code and test on your own branch
   5. Merge into master branch when you finish
 
-3. Always PULL before PUSH
+3. Always 'git fetch' before 'git push'
 
 4. We'll use the following popular workflow model, but at this time, just feel free to merge your final work from your own branch to MASTER branch, since we are working on different files, this shouldn't be a problem.
 ![Workflow](http://nvie.com/img/git-model@2x.png)
