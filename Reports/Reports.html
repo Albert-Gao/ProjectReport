@@ -125,8 +125,48 @@
                                 <li class="list-unstyled"><a href="https://github.com/AlbertGaoLovesCoding/COSC345Project">https://github.com/AlbertGaoLovesCoding/COSC345Project</a></li>
                             </ul>
                             <h1><a name="code">4 Programme Languages</a></h1>
+                            <h4>Chosen Language: TypeScript</h4>
+                            <p>Reasons:</p>
+                            <ul>
+                                <li>Strongly Typed - Which means less bugs and less debugging time.</li>
+                                <li>Implements lots of ECMA6 functionalities.</li>
+                                <li>Open Source - Biggest maintainer is Microsoft, but it is open source. Googles famous AngularJS
+                                    uses TypeScript as the official language in its V2 edition.</li>
+                                <li>Super set of ECMA(standard of JavaScript). Shares the same syntax system with JavaScript.</li>
+                                <li>Well supported by nearly every IDE, especially Intellisense.</li>
+                                <li>Class-based Object Orientated so it's familiar to java in that sense</li>
+                                <li>Module support</li>
+                            </ul>
+
+                            <p>Possible cons are mostly implicit:</p>
+                            <ul>
+                                <li>Type annotations - Which may be cumbersome</li>
+                                <li>Not all third-party libraries have ambient definitions - Have to maintain own definitions
+                                    if we want to use a particular library</li>
+                                <li>A compile step is required to transform TypeScript into JavaScript</li>
+                            </ul>
+
                             <h1><a name="ide">5 IDE</a></h1>
                             <h1><a name="debug">6 Debugging Tools</a></h1>
+                            <p>We will predominantly use Chrome's developer tools for debugging our javascript, as this tool
+                                set has very much become the industry standard. This means that there is a lot of (up to
+                                date) material online explaining how to use it, includinga google sponsored Code School
+                                <a href="http://discover-devtools.codeschool.com/">course</a>.</p>
+                            <p>Firefox debugging tool Firebug will of course be used if we encounter issues that appear in Firefox
+                                but not in chrome, to try and discover what is causing the differing behaviour. Between these
+                                two most bugs should be found. Firebug is actually in the <a href="https://hacks.mozilla.org/2015/10/firebug-devtools-integration/">process</a>                                of unifying itself with native Firefox developer tools. The <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox developer
+edition</a> incorporates this, as well as a number of other tools, and is actually something that we might look into if have
+                                the time and inclination further down the line.</p>
+                            <p>Both Chrome's developer tools and firebug support source maps, an important feature as we'll
+                                be using TypeScript, so would like to debug using our source rather than the transpiled javascript
+                                that the developer tools would otherwise see.</p>
+                            <p>In the end it doesn't really matter too much which one we use (Microsoft also have developer
+                                tools in their Edge browser, but it is not widely used by developers nor by the general public,
+                                so lacks supporting material), as both serve the same purpose, and go about it in only slightly
+                                different ways. We can set breakpoints in both, step through the code line by line, query
+                                values at different points in the code and so on.</p>
+
+
                             <h1><a name="plan">7 Project Plan</a></h1>
                             <h3>7.1 Division Brief</h3>
                             <p>We will divide the whole project development into 6 phases. Design, learn, architecture, developement,
