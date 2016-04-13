@@ -1,3 +1,6 @@
+Preview of the report
+[here](https://htmlpreview.github.io/?https://github.com/AlbertGaoLovesCoding/COSC345Project/blob/master/Reports/Reports.html).
+
 #NOTIFICATION
 =====
 1. Just update your report to the directory named *Reports*
